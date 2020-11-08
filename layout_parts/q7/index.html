@@ -16,7 +16,7 @@
       <h2 class="headline">
         <p class="headline__text">Q7. 横並び</p>
       </h2>
-      <div class="box">
+      <div class="box q7__wrapper">
         <div class="box__inner">
           <h3 class="box__headline">
             <p class="box__headline__text">ー Q7-1 floatでの横並び ー</p>
@@ -25,11 +25,11 @@
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q7 q7--float">
-            <div class="q7__inner">
-              <div class="q7__box">
+            <div class="q7__inner clearfix">
+              <div class="q7__box q7__left">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
               </div>
-              <div class="q7__box">
+              <div class="q7__box q7__right">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cill
               </div>
             </div>
@@ -46,16 +46,24 @@
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q7 q7--table">
             <div class="q7__inner">
-              <div class="q7__box">
+              <table>
+                <tr>
+                  <th>
+              <div class="q7__box q7__table__center">
                 <div class="q7__box__text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 </div>
               </div>
+            </th>
+            <th>
               <div class="q7__box">
                 <div class="q7__box__text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cill
                 </div>
               </div>
+            </th>
+            </tr>
+          </table>
             </div>
           </div>
           <!-- Q7の回答はここに書いてね -->
