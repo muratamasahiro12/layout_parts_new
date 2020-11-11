@@ -1,24 +1,24 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.in__textalign  {
+.in__textalign {
   text-align: center;
 }
 .inner__textalign {
   display: inline-block;
 }
 .inner  {
-  padding:  10px 0;
-  width:  90px;
-  background-color:#e6f2ff;
+  padding: 10px 0;
+  width: 90px;
+  background-color: #e6f2ff;
 }
 .in__margin {
   text-align: center;
   margin: 0 auto;
 }
-.q6__aroundtable  {
+.q6__aroundtable {
   display: table;
-  width:  300px;
+  width: 300px;
   height: 200px;
 }
 .q6__boxtable {
@@ -26,20 +26,20 @@
   text-align: center;
   vertical-align: middle;
 }
-.q6--around{
-  align-items:  center;
+.q6--around {
+  align-items: center;
   display: flex;
   justify-content: center;
 }
-.q6__table{
+.q6__table {
   display: inline-block;
-  background-color:#fff;
-  padding:  10px;
+  background-color: #fff;
+  padding: 10px;
 }
-.is-stable{
+.is-stable {
   position: relative; 
 }
-.q6__Fixed{
+.q6__Fixed {
   position: absolute;
   top: 0;
   left: 0;
@@ -47,7 +47,7 @@
   bottom: 0;
   margin: auto;
 }
-.q6__flexbox  {
+.q6__flexbox {
   position: relative;
 }
 .q6__variable {
