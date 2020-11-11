@@ -19,22 +19,22 @@
   border: 1px solid #dedede;
   padding:  10px;
 }
-tr:nth-child(even) {
+.calorie > tbody > tr:nth-child(even) {
   line-height:26px;
   background-color: #ecf1f2;
 }
-tr th:nth-child(1) {
+.calorie th {
   color: #fff;
   font-size:18px;
   line-height:26px;
   background-color: #2244aa;
 }
-tfoot {
-  border-top: 2px dashed #000;
-}
-thead {
+.calorie thead {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
+}
+.calorie tfoot {
+  border-top: 2px dashed #000;
 }
 /* 回答はここに書いてね */
