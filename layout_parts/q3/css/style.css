@@ -6,10 +6,18 @@
   table-layout: fixed;
   width: 100%;
 }
-.calorie>thead>tr>th {
+.calorie > thead > tr > th {
   border: 1px solid #dedede;
   padding:  10px;
-  line-height:22px;
+  line-height:26px;
+}
+.calorie > tbody > tr > th {
+  border: 1px solid #dedede;
+  padding:  10px;
+}
+.calorie > tfoot > tr > th {
+  border: 1px solid #dedede;
+  padding:  10px;
 }
 tr:nth-child(even)  {
   line-height:26px;
