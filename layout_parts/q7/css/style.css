@@ -11,10 +11,10 @@
   text-align: left;
   box-sizing: border-box;
   width:225px;
-  margin-left: 50px;
+  margin-right:50px;
 }
-.q7_boxtext:nth-child(odd){
-  margin-left: 0;
+.q7_boxtext:nth-child(even){
+  margin-right: 0;
 }
 .q7__left{
   float:left;
@@ -31,7 +31,7 @@
   display: table;
 }
 .q7__table__center{
-  display: table-cell
+  display: table-cell;
+  vertical-align: middle;
 }
-
 /* 回答はここに書いてね */
