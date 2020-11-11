@@ -8,9 +8,10 @@
 .content{
   width:100%;
   display: table;
+  margin-top:20px;
 }
-.content:last-child{
-  margin-top:20px
+.content:first-child{
+  margin-top:0;
 }
 div{
   text-align: center;
@@ -31,16 +32,10 @@ div{
   width:100px;
   background-color:#b6d8ed;
 }
-.second{
-  width:100%;
-  display: table;
-}
 .yellow{
-
   background-color:#e5d32e;
 }
 .red{
-
   background-color:#ec8f9a;
 }
 .green{

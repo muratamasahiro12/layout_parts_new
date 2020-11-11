@@ -5,16 +5,16 @@
   font-size:16px;
 }
 .q7__inner{
-width:500px;
+  width:500px;
 }
-.q7__box{
+.q7_boxtext {
   text-align: left;
   box-sizing: border-box;
   width:225px;
-  margin-right:50px;
+  margin-left: 50px;
 }
-.q7__box:nth-child(2n){
-  margin-right: 0;
+.q7_boxtext:nth-child(odd){
+  margin-left: 0;
 }
 .q7__left{
   float:left;
@@ -26,6 +26,12 @@ width:500px;
   content: "";
   display: block;
   clear: both;
+}
+.q7__inner{
+  display: table;
+}
+.q7__table__center{
+  display: table-cell
 }
 
 /* 回答はここに書いてね */

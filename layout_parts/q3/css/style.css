@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table.calorie {
+.calorie {
   font-size:16px;
   table-layout: fixed;
   width: 100%;
 }
-th  {
+.calorie>thead>tr>th {
   border: 1px solid #dedede;
   padding:  10px;
   line-height:22px;
