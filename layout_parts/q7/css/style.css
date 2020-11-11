@@ -2,25 +2,25 @@
 
 /* 回答はここに書いてね */
 .q7__wrapper{
-  font-size:16px;
+  font-size: 16px;
 }
 .q7__inner{
-  width:500px;
+  width: 500px;
 }
 .q7_boxtext {
   text-align: left;
   box-sizing: border-box;
   width:225px;
-  margin-right:50px;
+  margin-right: 50px;
 }
-.q7_boxtext:nth-child(even){
+.q7_boxtext:nth-child(even) {
   margin-right: 0;
 }
 .q7__left{
-  float:left;
+  float: left;
 }
 .q7__right{
-  float:right;
+  float: right;
 }
 .clearfix::after {
   content: "";
@@ -30,7 +30,7 @@
 .q7__inner{
   display: table;
 }
-.q7__table__center{
+.q7__table__center {
   display: table-cell;
   vertical-align: middle;
 }
