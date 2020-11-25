@@ -1,25 +1,25 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q7__wrapper{
+.q7__wrapper {
   font-size: 16px;
 }
-.q7__inner{
+.q7__inner {
   width: 500px;
 }
-.q7_boxtext {
+.q7_boxtext,.q74__box {
   text-align: left;
   box-sizing: border-box;
-  width:225px;
-  margin-right: 50px;
+  width: 225px;
+  vertical-align: middle;
 }
-.q7_boxtext:nth-child(even) {
-  margin-right: 0;
+.q7_boxtext:nth-of-type(even){
+  margin-left: 50px;
 }
-.q7__left{
+.q7__left {
   float: left;
 }
-.q7__right{
+.q7__right {
   float: right;
 }
 .clearfix::after {
@@ -27,11 +27,52 @@
   display: block;
   clear: both;
 }
-.q7__inner{
+.is__table {
   display: table;
 }
 .q7__table__center {
   display: table-cell;
   vertical-align: middle;
 }
+.q7__is__inline{
+  font-size:0;
+}
+.q73__box{
+  display: inline-block;
+  font-size:16px;
+}
+.q7__3__left {
+ float: left;
+}
+.q7__3__right {
+ float: right;
+}
+.q74__inner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:flex-end;
+}
+.is-full{
+  display: block;
+  width:100%;
+  font-size: 0;
+}
+.q75__box{
+  display: inline-block;
+}
+.q75__box__text {
+  font-size:16px;
+}
+.q75__left{
+  vertical-align: top;
+  width:300px;
+}
+.q75__right{
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
+
 /* 回答はここに書いてね */

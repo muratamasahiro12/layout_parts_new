@@ -1,16 +1,16 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q8{
+.q8 {
   margin: 0 auto;
   width: 500px;
   text-align: center;
   position: relative;
-  overflow:hidden;
+  overflow: hidden;
 }
-.q8__1__text{
-  color:#fff;
-  width:500px;
+.q8__1__text {
+  color: #fff;
+  width: 500px;
   font-size: 16px;
   line-height: 16px;
   opacity: 0;
@@ -21,18 +21,18 @@
   box-sizing: border-box;
   padding: 0 20px 20px 20px;
 }
-.q8__text{
+.q8__text {
   word-break: break-all;
   background-color:	rgba(0,0,0,0.0);
 }
-.q8:hover .car__picture{
-  transform:  scale(1.5);
+.q8:hover .car__picture {
+  transform: scale(1.5);
   transition: all 0.6s ease;
 }
-.q8:hover .q8__1__text{
+.q8:hover .q8__1__text {
   opacity: 1;
   margin-bottom: 0;
-  transition:		all 0.6s ease;
+  transition:	all 0.6s ease;
 }
 /* ここから２ */
 .loading {
