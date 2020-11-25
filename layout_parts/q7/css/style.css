@@ -34,12 +34,12 @@
   display: table-cell;
   vertical-align: middle;
 }
-.q7__is__inline{
+.q7__is__inline {
   font-size:0;
 }
-.q73__box{
+.q73__box {
   display: inline-block;
-  font-size:16px;
+  font-size: 16px;
 }
 .q7__3__left {
  float: left;
@@ -47,32 +47,31 @@
 .q7__3__right {
  float: right;
 }
-.q74__inner{
+.q74__inner {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items:flex-end;
+  align-items: flex-end;
 }
-.is-full{
+.is-full {
   display: block;
-  width:100%;
+  width: 100%;
   font-size: 0;
 }
 .q75__box{
   display: inline-block;
 }
 .q75__box__text {
-  font-size:16px;
+  font-size: 16px;
 }
-.q75__left{
+.q75__left {
   vertical-align: top;
-  width:300px;
+  width: 300px;
 }
-.q75__right{
+.q75__right {
   width: 100%;
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
 }
-
 /* 回答はここに書いてね */
