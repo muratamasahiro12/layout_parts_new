@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q9__text__box{
+.q9__text__box {
   margin: 0 auto;
   text-align:center;
 }
@@ -16,22 +16,20 @@
   z-index: 0;
   border-radius: 30px;
 }
-.q9__text:before {
+.q9__text:before,.q9__text:after {
   content: "";
   position: absolute;
+  border: 20px solid transparent;
+}
+.q9__text:before {
   top: 100%;
   left: 20px;
-  border: 20px solid transparent;
   border-top: 20px solid #222;
 }
 .q9__text:after {
-  content: "";
-  position: absolute;
   left: 20px;
   bottom: -33px;
-  border: 20px solid transparent;
   border-top: 20px solid #ffffff;
   z-index: 1;
 }
 /* 回答はここに書いてね */
-

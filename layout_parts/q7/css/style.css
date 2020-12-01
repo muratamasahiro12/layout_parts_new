@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q7__wrapper {
+.q7box__wrapper {
   font-size: 16px;
 }
-.q7__inner {
+.q7__box__inner {
   width: 500px;
 }
 .q7_boxtext,.q74__box {
@@ -12,15 +12,16 @@
   box-sizing: border-box;
   width: 225px;
   vertical-align: middle;
+  margin-left:50px;
 }
-.q7_boxtext:nth-of-type(even){
-  margin-left: 50px;
-}
-.q7__left {
+.q7__left{
   float: left;
 }
-.q7__right {
-  float: right;
+.q7_boxtext:first-child {
+  margin-left: 0;
+}
+.q74__box {
+  margin-left: 0;
 }
 .clearfix::after {
   content: "";
@@ -33,19 +34,17 @@
 .q7__table__center {
   display: table-cell;
   vertical-align: middle;
+  padding-left:50px;
+}
+.q7__table__center:first-child {
+  padding-left:0;
 }
 .q7__is__inline {
-  font-size:0;
+  font-size: 0;
 }
 .q73__box {
   display: inline-block;
   font-size: 16px;
-}
-.q7__3__left {
- float: left;
-}
-.q7__3__right {
- float: right;
 }
 .q74__inner {
   display: flex;
@@ -58,7 +57,7 @@
   width: 100%;
   font-size: 0;
 }
-.q75__box{
+.q75__box {
   display: inline-block;
 }
 .q75__box__text {
