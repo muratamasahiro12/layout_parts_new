@@ -48,7 +48,6 @@
 }
 .q74__inner {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: flex-end;
 }
